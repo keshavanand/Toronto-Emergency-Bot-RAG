@@ -25,9 +25,9 @@ search_term = "how to know if food is safe"
 additional_content = df.sort_values("similarities", ascending=False).head(1)["Content"].to_string().replace("\n", " ")
 
 chat_client = AzureOpenAI(
-    api_key="67GUCiwqpyDvfEXFf5vgQ0uB1IHzDTw0QqyJR9CDjqAxps4zKlesJQQJ99AKACfhMk5XJ3w3AAAAACOGdsjD",  
+    api_key="",  
     api_version="2024-02-01",
-    azure_endpoint = "https://ksing-m3vuqiyj-swedencentral.cognitiveservices.azure.com/openai/deployments/gpt-4/chat/completions?api-version=2024-08-01-preview"
+    azure_endpoint = ""
 )
 
 
